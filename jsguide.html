@@ -149,6 +149,8 @@ file's implementation, which may be preceded by 1 or 2 blank lines.</p>
 
 <h3 id="file-goog-module">3.3 <code>goog.module</code> statement</h3>
 
+<p><em>(Corvus: Not now)</em> - including subsections</p>
+
 <p>All files must declare exactly one <code>goog.module</code> name on a single line: lines
 containing a <code>goog.module</code> declaration must not be wrapped, and are therefore an
 exception to the 80-column limit.</p>
@@ -212,6 +214,8 @@ semantics are not yet finalized. Note that this policy will be revisited once
 the semantics are fully-standard.</p>
 
 <h3 id="file-goog-require">3.4 <code>goog.require</code> statements</h3>
+
+<p><em>(Corvus: Not now)</em> - including subsections</p>
 
 <p>Imports are done with <code>goog.require</code> statements, grouped together immediately
 following the module declaration. Each <code>goog.require</code> is assigned to a single
@@ -2518,9 +2522,9 @@ part of valid Google style.</p>
       <td>Polymer
       </td><td><code>@polymerBehavior</code>
       </td><td>
-          
+
             <a href="https://github.com/google/closure-compiler/wiki/Polymer-Pass">https://github.com/google/closure-compiler/wiki/Polymer-Pass</a>
-          
+
     </td></tr></tbody></table></p>
 
 <h4 id="appendices-notes-about-standard-closure-compiler-annotations">9.1.4 Notes about standard Closure Compiler annotations</h4>
@@ -2608,6 +2612,8 @@ globals, which could break the codebase) and security patterns (such as using
 
 <h3 id="appendices-legacy-exceptions">9.4 Exceptions for legacy platforms</h3>
 
+<p><em>(Corvus)</em> UI code uses ECMAScript5, so these exceptions apply widely</p>
+
 <h4 id="appendices-legacy-exceptions-overview">9.4.1 Overview</h4>
 
 <p>This section describes exceptions and additional rules to be followed when
@@ -2688,6 +2694,8 @@ expression to define a function within a block:</p>
 </code></pre>
 
 <h4 id="appendices-legacy-exceptions-goog-provide">9.4.4 Dependency management with <code>goog.provide</code>/<code>goog.require</code></h4>
+
+<p><em>(Corvus: Not now)</em></p>
 
 <p><strong><code>goog.provide</code> is deprecated. All new files should use <code>goog.module</code>, even in
 projects with existing <code>goog.provide</code> usage. The following rules are for
